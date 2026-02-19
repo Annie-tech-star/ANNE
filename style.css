@@ -19,7 +19,7 @@ section{padding:5rem 0;}
 /* HOME */
 #home{background: linear-gradient(135deg,var(--primary-color),var(--dark-color));color:white;text-align:center;padding:7rem 0;}
 .home-content{display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap;}
-.profile-image{flex:1; min-width:300px; max-width:400px; margin:0 auto 2rem;}
+.profile-image{flex:1; min-width:250px; max-width:250px; margin:0 auto 2rem;}
 .profile-image img{width:100%; border-radius:50%; border:8px solid rgba(255,255,255,0.2); box-shadow:0 10px 30px rgba(0,0,0,0.3);}
 .home-text{flex:1; min-width:300px; padding:0 2rem;}
 .home-text h1{font-size:3rem; margin-bottom:1rem;}
@@ -69,4 +69,5 @@ footer{background:var(--primary-color); color:white; text-align:center; padding:
   .mobile-menu-btn{display:block;}
   .home-content, .about-content, .contact-container{flex-direction:column;}
   .home-text{padding:0;}
+
 }
